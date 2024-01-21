@@ -14,3 +14,13 @@ body, html {
     font-size: 50px;
     background-repeat: no-repeat;
 }
+
+.TitleContainter {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: underline;
+    color: #ffffff; /* Optionally, set the text color to white */
+}

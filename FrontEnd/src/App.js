@@ -1,8 +1,10 @@
-import "./App.css";
+import Home from "./Home.js";
 
 function App() {
   return (
-    <div className="BackGroundImage"></div>
+    <>
+      <Home/>
+    </>
   );
 }
 
