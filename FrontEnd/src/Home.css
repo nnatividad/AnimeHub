@@ -1,0 +1,26 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+.BackGroundImage {
+    background-image: url("../public/backgroundImage.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: 50px;
+    background-repeat: no-repeat;
+}
+
+.TitleContainter {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: underline;
+    color: #ffffff; /* Optionally, set the text color to white */
+}
