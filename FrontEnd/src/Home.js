@@ -1,20 +1,18 @@
-import "./Home.css";
-import NavBar from "./NavBar.js";
+import Background from "./BackGround.js";
+import Card from "./Card.js";
+import Grid from "./Grid.js";
 
-function Home(){
+function Home() {
     return(
-        <div className="BackGroundImage">
-            <img src={process.env.PUBLIC_URL + '/RosehackLogo.png'} alt= "RoseHackLogo" className = "Logo" />
-            <div className="ContentContainer">
-                <>
-                    <NavBar/>
-                </>
-            <div className="TitleContainter">
-                <h1>AnimeHub</h1>
-                <p>By Nate Natividad and Vincent Vo</p>
-            </div>
+        <div>
+            <Background/>
+            <Grid>
+                <Card image="JJK.png" title="Jujutsu Kaisen: Season 2"/>
+                <Card image="bleach.jpg" title="Bleach"/>
+                <Card image="naruto.jpg" title="Naruto"/>
+                <Card image="aot.jpg" title="Attack on Titan"/>
+            </Grid>
         </div>
-      </div>
     );
 }
 

@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  
+  .BackGroundImage {
+      background-image: url("../public/backgroundImage.png");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      font-size: 50px;
+      background-repeat: no-repeat;
+  }
+  
+  /* Adjust the styles based on your preferences */
+  .Logo {
+    position: absolute;
+    top: 10px;
+    left: 75px;
+    width: 135px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  
+  .TitleContainter h1{
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      text-decoration: underline;
+      color: #ffffff; /* Optionally, set the text color to white */
+  }
+  
+  .TitleContainter p{
+      font-size: 30px;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #bdbaba; /* Optionally, set the text color to white */
+  }
+  
+  .ContentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align children to the right */
+    height: 100%;
+  }
